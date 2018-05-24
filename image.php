@@ -4,6 +4,7 @@ $im = imagecreatetruecolor(200, 200);
 $white = imagecolorallocate($im, 255, 255, 255);
 
 //$deployment = getenv("COLOR");
+//Testing
 $deployment = 'green';
 
 if ( $deployment == 'blue') {
